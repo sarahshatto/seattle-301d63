@@ -1,0 +1,27 @@
+main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap
+}
+
+#left, #right{
+  width: 10%;
+  height: 800px;
+  line-height: 800px;
+}
+
+#main{
+  flex-grow: 1;
+  height: 800px;
+  line-height: 800px;
+  order: 1;
+}
+
+/* #left{
+  order: 1
+} */
+
+#right{
+  order: 2;
+} 
+

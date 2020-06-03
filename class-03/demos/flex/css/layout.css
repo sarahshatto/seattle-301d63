@@ -1,0 +1,10 @@
+/* start with mobile first */
+
+div, header, footer{
+  border: 1px solid purple;
+  box-sizing: border-box;
+  background-color: lightblue;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
