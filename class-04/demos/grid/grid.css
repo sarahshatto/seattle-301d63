@@ -1,0 +1,25 @@
+body{
+  height: 100vh;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 200px auto 200px;
+  height: calc(100% - 400px);
+}
+
+div{
+  height: 100%;
+}
+
+#left{
+  order: 1;
+}
+
+#main{
+  order: 2;
+}
+
+#right{
+  order: 3;
+}
