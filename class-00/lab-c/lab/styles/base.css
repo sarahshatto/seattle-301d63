@@ -1,0 +1,24 @@
+/* BASE: 
+ should contain any general styling on top of what is provided by a reset.css or normalize.css file (these files will be discussed in further detail in lecture)
+
+Apply to elements such as body and main
+Examples include styling of overall font and background color 
+*/
+
+
+* {
+  font-family: times;
+}
+
+body {
+  background: #fff;
+}
+
+main p {
+  color: #333;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  text-indent: 30px;
+  margin: 20px 0px;
+}
+
