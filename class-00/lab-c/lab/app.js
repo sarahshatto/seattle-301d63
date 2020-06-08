@@ -91,11 +91,11 @@ const oldObject = function(array) {
 // STEP 9
 // With an arrow function, we need to wrap our object in parentheses
 // Otherwise, it will be interpreted as a code block
-const newObject = array => ({
+const newObject = array => (
   firstValue: array[0],
   secondValue: array[1],
   thirdValue: array[2]
-});
+);
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 // console.log('Hello from the new object function', newObject(['hi', 'hello', 'are you there?']));
